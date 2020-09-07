@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;WEB3_1/src/kr.gsm.model&apos;&#x0D;&#x0A;- Original project: &apos;JDBC&apos;&#x0D;&#x0A;- Destination element: &apos;WEB3_1/src/kr.gsm.model&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     kr.erp.MemDAO.java&#x0D;&#x0A;     kr.erp.MemVO.java" description="Copy compilation units" destination="=WEB3_1/src&lt;kr.gsm.model" element1="/src&lt;kr.erp{MemDAO.java" element2="/src&lt;kr.erp{MemVO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1591671313697" units="2" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+    function calc(){
+        var su = document.getElementById("su").value;
+        var sum = 0;
+        for(var i = 1;i <= su; i++){
+            sum+=i;
+        }
+        document.getElementById("msg").innerHTML= sum;
+    }
+</script>
+</head>
+<body>
+    - jqery 실습(ajax) - <br>
+<input type="text" name="su" id="su"/>
+<input type="button" value="계산" onclick="calc()"/>
+<hr/>
+결과값 :<div id="msg"></div>
+</body>
+</html>

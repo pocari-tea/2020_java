@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widthdevice-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        body{
+            font-size:12px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>회원가입</legend>
+        <form action="insert" method="post">
+        	<table>
+        		<tr>
+        			<td>학번 </td>
+        			<td><input type="text" name="bun" id="bun"/></td>
+        		</tr>
+        		<tr>
+        			<td>이름 </td>
+        			<td><input type="text" name="name" id="name"/></td>
+        		</tr>
+        		<tr>
+        			<td>전화번호</td>
+        			<td><input type="text" name="phone" id="phone"/></td>
+        		</tr>
+        		<tr>
+        			<td>이메일</td>
+        			<td><input type="text" name="email" id="email"/></td>
+        		</tr>
+        		<tr>
+        			<td>주소 </td>
+        			<td><input type="text" name="addr" id="addr" size="50"/></td>
+        		</tr>
+        		<tr>
+        			<td colspan="2" align="center">
+        				<input type="submit" value="가입"/>
+        				<input type="reset" value="취소"/>
+        			</td>
+        		</tr>
+        	</table>
+        </form>
+    </fieldset>
+</body>
+</html>
